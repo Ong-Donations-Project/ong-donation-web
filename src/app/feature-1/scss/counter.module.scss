@@ -1,0 +1,30 @@
+.counterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 34px;
+
+  span {
+    color: red;
+  };
+};
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+};
+
+.btn {
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 4rem;
+}
+
